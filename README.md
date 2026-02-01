@@ -54,7 +54,7 @@
 7. Как должна отображаться реклама? Сверху, снизу или между товарами? В виде баннера или такой же карточки товара, например? Как много места она должна занимать?
 8. Если в корзине на один или более товаров имеется скидка, должны ли отображаться в корзине как итоговая цена, так и цена без скидки?
 
-## Проектирование API
+# Проектирование API
 ```Запрос: 
 GET /api/v1/partner-shops
 Accept: application/json
@@ -67,24 +67,31 @@ Accept: application/json
       "name": "название магазина",
       "imageUrl": "/URL",
       "externalUrl": "/URL",
-      "deliveryTime": "Текст"
+      "deliveryTime": "текст"
     },
     {
       "id": "UUID",
       "name": "название магазина",
       "imageUrl": "/URL",
       "externalUrl": "/URL",
-      "deliveryTime": "Текст"
+      "deliveryTime": "текст"
     },
     {
       "id": "UUID",
       "name": "название магазина",
       "imageUrl": "/URL",
       "externalUrl": "/URL",
-      "deliveryTime": "Текст"
+      "deliveryTime": "текст"
+    },
+    {
+      "id": "UUID",
+      "name": "название магазина",
+      "imageUrl": "/URL",
+      "externalUrl": "/URL",
+      "deliveryTime": "текст"
     }
   ]
 }
 ```
-## Архитектура
+# Архитектура
 ![схема](схема.png)
